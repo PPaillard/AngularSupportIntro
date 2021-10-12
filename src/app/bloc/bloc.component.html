@@ -1,0 +1,10 @@
+<p class="red">{{title}}</p> 
+<button (click)="changeTitle()" >Changement du titre</button>
+
+<!-- Boucle for -->
+<p *ngFor="let dessert of desserts" class="blabla">
+   {{dessert}}
+</p>
+<img src="{{url}}" alt="test" />
+
+<img [src]="url" alt="test" /> 
